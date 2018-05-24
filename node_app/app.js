@@ -3,10 +3,13 @@ var mysql = require('mysql');
 var fs = require('fs');
 var express = require('express');
 
-var app = express()
+var app = express();
 
-app.use(express.static('../view'))
+app.use(express.static('../public'))
 
 
 
-app.listen(8080);
+
+app.listen(8080, function() {
+	console.log("Running Express")
+});
