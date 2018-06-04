@@ -2,25 +2,18 @@
     background: linear-gradient(141deg, #355C7D 0%, #6C5B7B 51%, #C06C84 75%);
 }
 
-.cal-background {
-	margin-top: 200px;
-	background-color: white;
-    height: 45vh;
-}
-
-
-/* Month header */
 .month {
-    padding: 70px 25px;
+    padding: 10px 25px;
     width: 100%;
+    height:40vh;
     background: #1abc9c;
     text-align: center;
 }
 
-/* Month list */
 .month ul {
     margin: 0;
-    padding: 0;
+    padding: 90px;
+
 }
 
 .month ul li {
@@ -31,19 +24,59 @@
     list-style: none;
 }
 
-/* Previous button inside month header */
 .month .prev {
     float: left;
     padding-top: 10px;
 }
 
-/* Next button */
+
 .month .next {
 	float: right;
     padding-top: 10px;
 }
 
-/* Weekdays (Mon-Sun) */
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.dateText {
+    color:white;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.datePickerFrom {
+    margin-top:0px;
+    margin-left: px;
+    width:200px;
+}
+
+.datePickerTo {
+    margin-top:0px;
+    margin-right:0px;
+    width:200px;
+    margin-top:10px;
+}
+
+.selectBtn {
+    background-color: wheat;
+    color:black;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.dateInput {
+    border-radius: 8px;
+    height:50px;
+    border:none;
+}
+
 .weekdays {
     margin: 0;
     padding: 10px 0;
@@ -57,7 +90,7 @@
     text-align: center;
 }
 
-/* Days (1-31) */
+
 .days {
     padding: 10px 0;
     background: #eee;
@@ -84,3 +117,4 @@
 
 
 
+*/*/
